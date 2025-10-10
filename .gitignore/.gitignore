@@ -1,0 +1,33 @@
+# =========================
+# Python / Data Science Project .gitignore
+# =========================
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter checkpoints ---
+.ipynb_checkpoints/
+
+# --- System and cache files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+Thumbs.db
+
+# --- VS Code and IDE settings ---
+.vscode/
+.idea/
+
+# --- Data files (optional, keep small CSVs only if necessary) ---
+# Uncomment the next line if you don't want to push any data
+# data/
+
+# --- OS temp files ---
+*.log
+*.tmp
+~$*
